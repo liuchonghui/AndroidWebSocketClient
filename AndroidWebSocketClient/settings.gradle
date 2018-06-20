@@ -1,1 +1,2 @@
-include ':app'
+//include ':app' 空项目
+include ':app0' // 测试netty做客户端
