@@ -1,13 +1,18 @@
 package android.test.what;
 
 import android.annotation.TargetApi;
+import android.os.Build;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.HandlerThread;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    Handler mHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

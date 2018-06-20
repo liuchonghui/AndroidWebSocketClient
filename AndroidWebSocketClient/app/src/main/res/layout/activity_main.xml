@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/splash1"
                 android:background="#77ff99"
-                android:text="Action1" />
+                android:text="ACTION1" />
 
             <LinearLayout
                 android:id="@+id/launch1"
